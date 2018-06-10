@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/playerContainer">
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:id="@+id/mPlayerView"/>
+    </FrameLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="填入视频地址"
+        android:id="@+id/mEditAddress"
+        android:text="http://mpv.videocc.net/05714ecace/a/05714ecace534bc4b3b129092a8b330a_2.mp4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:id="@+id/mPlay"
+        android:onClick="onClick"
+        android:text="播放" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:id="@+id/mType"
+        android:onClick="onClick"
+        android:text="展示方式切换" />
+</LinearLayout>

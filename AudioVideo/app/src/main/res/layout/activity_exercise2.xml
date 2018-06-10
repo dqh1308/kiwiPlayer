@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bun_test_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="record"/>
+
+    <Button
+        android:id="@+id/bun_test_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play"/>
+
+    <Button
+        android:id="@+id/bun_test_play2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play2"/>
+</LinearLayout>
